@@ -39,11 +39,3 @@ class Node:
                 break
             else:
                 node_pointer = node_pointer.child
-
-    def partition(self, x: int, head: "Node"):
-        pointer_node: Node = head
-        left = []
-        right = []
-        while pointer_node.child != None:
-
-
